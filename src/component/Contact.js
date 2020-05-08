@@ -6,7 +6,7 @@ import * as Yup from 'yup';
 
 
 const validationSchema=Yup.object({
-    firstname:Yup.string().required("fisrtname zorunludur"), lastname:Yup.string().required("lastname zorunludur"), phone:Yup.number("sayı giriniz"), email:Yup.string().email("email zorunulu ve bir email adresi giriniz").required(),url:Yup.string().url("web sitesi giriniz"),
+    firstname:Yup.string().required("firstname zorunludur"), lastname:Yup.string().required("lastname zorunludur"), phone:Yup.number("sayı giriniz"), email:Yup.string().email("email zorunulu ve bir email adresi giriniz").required(),url:Yup.string().url("web sitesi giriniz"),
   });
  const Contact = () => {
     return (
